@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SuiteName]">
+  <parameter name="browser" value="chrome"/>
+  <test name="TestCaseName(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.crm.testCase.LoginPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="loginPageTittleTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.crm.testCase.LoginPageTest -->
+    </classes>
+  </test> <!-- TestCaseName(failed) -->
+</suite> <!-- Failed suite [SuiteName] -->
